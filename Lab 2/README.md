@@ -20,3 +20,4 @@ Inside the while stetements, we use a switch case to perform the different funct
 After taking the name from the user we check if at any index position the name given by user is alreaday existing, if no the name is added and if yes , we display that the name already exists.
 switch case 3 deletes a name from the list
 switch case 4 exits the user from the program.
+If the choice is wrong Invalid choice is diaplayed.
