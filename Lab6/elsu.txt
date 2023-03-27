@@ -1,0 +1,7 @@
+
+RegNo: 21
+Name: elsu
+Email: e@mail.com
+PhNo: 85524
+Class: msc
+Department: ds
