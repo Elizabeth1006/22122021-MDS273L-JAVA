@@ -25,6 +25,9 @@ Update the student details based on the search based on name or register number.
 Display all students
 Displays the details of all students.
 Save the details of each student in a file, with the student name as filename.
+Flow Chart:
+![Lab-6](https://github.com/Elizabeth1006/22122021-MDS273L-JAVA/assets/118045058/72176a18-4116-440c-938f-6c0302da0a2a)
+
 
 
 
