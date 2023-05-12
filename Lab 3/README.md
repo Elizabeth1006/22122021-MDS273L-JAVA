@@ -13,3 +13,5 @@ First to dimensional string is created with specific length
 Using the main fuction rhe choice are asked whether to add details,search or display details is asked 
 In the function collect Details the details of the student is collected if the details doenot exist
 In dispaly the the details is displayed
+Flow Chart:
+![Lab-3](https://github.com/Elizabeth1006/22122021-MDS273L-JAVA/assets/118045058/6531adba-52bd-4dcf-9e6e-99e5bc68c664)
