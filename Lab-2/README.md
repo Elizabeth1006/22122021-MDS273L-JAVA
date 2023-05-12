@@ -21,3 +21,7 @@ After taking the name from the user we check if at any index position the name g
 switch case 3 deletes a name from the list
 switch case 4 exits the user from the program.
 If the choice is wrong Invalid choice is diaplayed.
+
+Flow  Chart:
+
+![Lab-2](https://github.com/Elizabeth1006/22122021-MDS273L-JAVA/assets/118045058/b4092404-c35b-4754-931a-e263cb5cc755)

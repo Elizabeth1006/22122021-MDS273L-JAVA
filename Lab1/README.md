@@ -6,3 +6,6 @@ Identify if the employee belongs to the top MNC Companies (Facebook, Google, Mic
 
 Program:
 The name(string),gender(character),company name(string),state(string) of an employee is collected.Using if else condition the persons gender is printed.Using switch case if the person belong to top MNC company is identified.Also using switch case the part of the country the person belonga and preferable stae is identified.
+  
+  Flow Chart:
+  ![Lab-1](https://github.com/Elizabeth1006/22122021-MDS273L-JAVA/assets/118045058/48b819c0-ba84-45a9-ae4e-eb90cdb6576e)
