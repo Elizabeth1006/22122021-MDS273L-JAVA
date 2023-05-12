@@ -7,3 +7,5 @@ Once the overall summary statistics have been calculated, identify the summary s
 
 Present your results in the appropriate format and write the results in a file.
 
+Flow Chart:
+![Lab-7](https://github.com/Elizabeth1006/22122021-MDS273L-JAVA/assets/118045058/8405ed43-db58-4442-9d07-effaa9be0d83)
