@@ -10,3 +10,5 @@ The message is then converted into lower case and the str1 and str2 too.
 For each letter in the str1 letter in the str2 is printed.
 The same happens for descrypt  that is choice 2 .
 If choice 3 is selected the program exits.
+Flow Chart:
+![Lab-5](https://github.com/Elizabeth1006/22122021-MDS273L-JAVA/assets/118045058/d8077904-8ced-4d85-b619-7694c486312b)
