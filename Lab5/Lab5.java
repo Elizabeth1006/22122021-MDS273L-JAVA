@@ -6,22 +6,22 @@ public class Lab5 {
          //int choice;
          while (true) {
             System.out.println("Enter 1 for encryption , 2 for decryption and 3 to exit:");
-            int choice=scanner.nextInt();
+            int c=scanner.nextInt();
          
          
-         if (choice == 1) {
+         if (c == 1) {
             System.out.print("Enter message to encrypt: ");
             scanner.nextLine();
             String message = scanner.nextLine();
-            String encryptedMessage = encrypt(message);
-            System.out.println("Encrypted message: " + encryptedMessage);
-        } else if (choice == 2) {
+            String encMessage = encrypt(message);
+            System.out.println("Encrypted message: " + encMessage);
+        } else if (c == 2) {
             System.out.print("Enter message to decrypt: ");
             scanner.nextLine();
             String message = scanner.nextLine();
             String decryptedMessage = decrypt(message);
             System.out.println("Decrypted message: " + decryptedMessage);
-        } else if (choice == 3) {
+        } else if (c == 3) {
             break;
         } else {
             System.out.println("Invalid option. Please choose again.");
@@ -34,7 +34,7 @@ public class Lab5 {
     String str1="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     String str2="XYZABCDEFGHIJKLMNOPQRSTUVW";
-    StringBuilder encryptedMessage = new StringBuilder();
+    StringBuilder encMessage = new StringBuilder();
    // String encryptedMessage = "";
     for(int i=0;i<message.length();++i){
         
@@ -43,12 +43,12 @@ public class Lab5 {
         if (index >= 0) {
             char encryptedChar = str2.charAt(index);
             if (Character.isLowerCase(ch)) {
-                encryptedMessage.append(Character.toLowerCase(encryptedChar));
+                encMessage.append(Character.toLowerCase(encryptedChar));
             } else {
-                encryptedMessage.append(encryptedChar);
+                encMessage.append(encryptedChar);
             }
         } else {
-            encryptedMessage.append(ch);
+            encMessage.append(ch);
         }
 
         // if () {
@@ -63,7 +63,7 @@ public class Lab5 {
         // }
 
     }
-    return encryptedMessage.toString();
+    return encMessage.toString();
    
     }
 

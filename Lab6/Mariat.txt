@@ -1,0 +1,7 @@
+
+RegNo: 222
+Name: Mariat
+Email: mariat@gmail.com
+PhNo: 965897456
+Class: MSC
+Department: DS

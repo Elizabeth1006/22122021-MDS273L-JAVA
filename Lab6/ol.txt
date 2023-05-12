@@ -1,0 +1,7 @@
+
+RegNo: 221
+Name: ol
+Email: bn
+PhNo: 5
+Class: lo
+Department: yu

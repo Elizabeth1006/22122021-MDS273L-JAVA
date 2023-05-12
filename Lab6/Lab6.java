@@ -38,40 +38,37 @@ return result;
 }
 public class  Lab6{
    
-
-    public static void main(String[] args){
+public static void main(String[] args){
         Scanner scan=new Scanner(System.in);
         
         Student[] Stdetails=new Student[100];
         int ch; 
         int count=0;
 
-        
         do{
             System.out.println("Enter 1:to add student,2:search for a student,3:display details,4:to end the program");
             
             ch=Integer.parseInt(scan.nextLine());
             
-
-            switch(ch){
- case 1:
-                System.out.println("Enter the Reg no:");
+           switch(ch){
+             case 1:
+                System.out.println("Enter Reg no:");
                  String regno=scan.nextLine();
         
-                System.out.println("Enter your name");
+                System.out.println("Enter name");
                 String name=scan.nextLine();
         
-                System.out.println("Enter your email");
+                System.out.println("Enter  email");
                 String mail=scan.nextLine();
         
 
-                System.out.println("Enter your phone number");
+                System.out.println("Enter phone number");
                 String phone=scan.nextLine();
        
-                System.out.println("Enter your class");
+                System.out.println("Enter class");
                 String clas=scan.nextLine();
         
-                System.out.println("Enter your Department");
+                System.out.println("Enter  Department");
                String dept=scan.nextLine();
                Stdetails[count]=new Student(regno,name,mail,phone,clas,dept);
                  String filename=name+".txt";
@@ -88,10 +85,7 @@ public class  Lab6{
    
     write.close();
         }
-        
-
-        
-    catch(Exception ex){
+        catch(Exception ex){
             System.out.println(ex.getMessage());
         }
               // Stdetails[count]=new Student(regno,name,mail,phone,clas,dept);
@@ -99,10 +93,12 @@ public class  Lab6{
                 count+=1;
                 break;
 
+
+
                 case 2:
-                System.out.println("Enter the regno of the student you want to search");
+                System.out.println("Enter the regno:");
                 String reg=scan.nextLine();
-                System.out.println("Enter the name of the student you want to search");
+                System.out.println("Enter the name :");
                 String name1=scan.nextLine();
                 boolean found=false;
  for(int i=0;i<count;i++){
@@ -113,7 +109,6 @@ public class  Lab6{
                 }}
                 if(!found){
                     System.out.println("Student not found");
-
                 }break;
                 
                 case 3:
@@ -121,18 +116,13 @@ public class  Lab6{
                     Stdetails[i].printDetails();
                 }
                 break;
-
                 case 4:
-                System.out.println("end");
+                System.out.println("Exited from the program...");
                 break;  
             }
            }
            while(ch!=4);
-           
-
-    
-    }
-
+            }
 }
         
-    
+     
