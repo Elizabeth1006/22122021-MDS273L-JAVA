@@ -12,12 +12,16 @@ public class Lab1{
         String Company=scan.nextLine();
         System.out.println("Enter the state name:");
         String State=scan.nextLine();
+        System.out.println("******************************************");
+        System.out.println("Employee Name:"+Name);
         if(Gender=='f'){
-            System.out.println("Employee gender-FEMALE");  
+            System.out.println("Employee gender:FEMALE");  
         }
         else if(Gender=='m'){
-            System.out.println("Employee gender-MALE");
+            System.out.println("Employee gender:MALE");
         }
+        System.out.println("Employee State:"+State);
+        System.out.println("Employee company:"+Company.toUpperCase());
         switch(Company.toLowerCase()){
             case "facebook":
             case  "google":
@@ -30,13 +34,14 @@ public class Lab1{
             default:
             break;
         }
+    
         switch(State.toLowerCase()){
             case "kerala":
             case "tamil nadu":
             case "karnataka":
             case "telangana":
             case "andhra pradesh":
-            System.out.println("The Employee is from the southern states of India; Preferable work location is in  Andhra Pradesh, Karnataka, Kerala, Tamil Nadu and Telangana");
+            System.out.println("The Employee is from the southern states of India;\nPreferable work location is in  Andhra Pradesh,Karnataka,\n Kerala, Tamil Nadu and Telangana");
 
         }
         switch(State.toLowerCase()){
@@ -49,7 +54,7 @@ public class Lab1{
             case "rajasthan":
             case "uttar pradesh":
             case "chandigarh":
-            System.out.println("The Employee is from the northern states of India; Preferable work location is in Jammu & Kashmir, Himachal Pradesh, Punjab, Uttarakhand, Haryana, Delhi, Rajasthan and Uttar Pradesh and Chandigarh.");
+            System.out.println("The Employee is from the northern states of India; \nPreferable work location is in Jammu & Kashmir, Himachal Pradesh,\n Punjab, Uttarakhand, Haryana, Delhi, Rajasthan and Uttar Pradesh and Chandigarh.");
         }
         switch(State.toLowerCase()){
             case "nagaland":
@@ -63,7 +68,7 @@ public class Lab1{
             case "bihar":
             case "jarkhand":
             case "orissa":
-            System.out.println("The Employee is from the western states of India; Preferable work location is incase nagaland, manipur, meghalaya,tripura,arunachal pradesh,assam,mizoram,sikkim,bihar,jarkhand,orissa"); 
+            System.out.println("The Employee is from the western states of India;\n Preferable work location is incase nagaland, manipur, meghalaya,\ntripura,arunachal pradesh,assam,mizoram,sikkim,bihar,jarkhand,orissa"); 
         }
         switch(State.toLowerCase()){
         case "gujarat":
@@ -71,8 +76,9 @@ public class Lab1{
         case "goa":
         case "west bengal":
         
-        System.out.println("The Employee is from the eastern states of India; Preferable work location is in gujarat , rajasthan ,goa ,west bengal");
+        System.out.println("The Employee is from the eastern states of India;\n Preferable work location is in gujarat , rajasthan ,goa ,west bengal");
         }
+        System.out.println("******************************************");
         
         }
 
