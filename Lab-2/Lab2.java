@@ -9,7 +9,9 @@ public class Lab2 {
   public static void main(String[] args) {
     int option;
     do {
-      printMenu();
+      System.out.println("**************************************************");
+     System.out.println("Menu:\n 1. Enter a name \n2. Search for a name \n3. Remove a name\n4. Exit");
+     System.out.println("**************************************************");
         option = sc.nextInt();
       switch (option) {
         case 1:
@@ -25,26 +27,18 @@ public class Lab2 {
           System.out.println("Exiting program...");
           break;
         default:
-          System.out.println("Invalid option, please try again.");
+          System.out.println("Invalid option!");
           break;
       }
     } while (option != 4);
   }
 
-  static void printMenu() {
-    System.out.println("\nMenu:");
-    System.out.println("1. Enter a name");
-    System.out.println("2. Search for a name");
-    System.out.println("3. Remove a name");
-    System.out.println("4. Exit");
-    System.out.print("Enter option: ");
-  }
 
   static void addName() {
     System.out.print("Enter a name: ");
     String name = sc.next();
     if (isNameExists(name)) {
-      System.out.println("Name already exists, please enter a unique name.");
+      System.out.println("Name already exists");
     } else {
       names[count++] = name;
       System.out.println("Name added ...!");
@@ -56,8 +50,8 @@ public class Lab2 {
     boolean isFound = false;
     for (int i = 0; i < count; i++) {
       if (names[i].equals(name)) {
-        System.out.println("Name found at position: " + (i + 1));
-        isFound = true;
+        System.out.println("Name is there...");
+         isFound = true;
         break;
       }
     }
